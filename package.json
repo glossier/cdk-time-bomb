@@ -1,6 +1,6 @@
 {
   "name": "@glossier/cdk-time-bomb",
-  "version": "1.107.0",
+  "version": "1.107.1",
   "description": "Implode your AWS CDK Stack after set amount of time, save money, be happy!",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -66,18 +66,18 @@
     "ts-jest": "^26.0.0"
   },
   "dependencies": {
-    "@aws-cdk/aws-events": "1.107.0",
-    "@aws-cdk/aws-events-targets": "1.107.0",
-    "@aws-cdk/aws-iam": "1.107.0",
-    "@aws-cdk/aws-lambda": "1.107.0",
-    "@aws-cdk/core": "1.107.0"
+    "@aws-cdk/aws-events": "^1.107.0",
+    "@aws-cdk/aws-events-targets": "^1.107.0",
+    "@aws-cdk/aws-iam": "^1.107.0",
+    "@aws-cdk/aws-lambda": "^1.107.0",
+    "@aws-cdk/core": "^1.107.0"
   },
   "peerDependencies": {
-    "@aws-cdk/aws-events": "1.107.0",
-    "@aws-cdk/aws-events-targets": "1.107.0",
-    "@aws-cdk/aws-iam": "1.107.0",
-    "@aws-cdk/aws-lambda": "1.107.0",
-    "@aws-cdk/core": "1.107.0",
+    "@aws-cdk/aws-events": "^1.107.0",
+    "@aws-cdk/aws-events-targets": "^1.107.0",
+    "@aws-cdk/aws-iam": "^1.107.0",
+    "@aws-cdk/aws-lambda": "^1.107.0",
+    "@aws-cdk/core": "^1.107.0",
     "constructs": "^3.3.69"
   }
 }
