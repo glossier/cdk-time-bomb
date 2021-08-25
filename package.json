@@ -1,5 +1,5 @@
 {
-  "name": "cdk-time-bomb",
+  "name": "@glossier/cdk-time-bomb",
   "version": "1.107.0",
   "description": "Implode your AWS CDK Stack after set amount of time, save money, be happy!",
   "main": "./lib/index.js",
@@ -8,8 +8,10 @@
     "build": "jsii",
     "build:watch": "jsii -w",
     "package": "jsii-pacmak",
-    "test": "tsc && jest",
-    "watch": "tsc -w"
+    "build:packages": "tsc --build tsconfig.build.json",
+    "watch": "tsc -w",
+    "test": "jest",
+    "release": "yarn test && yarn build && yarn publish && git push --tags"
   },
   "repository": {
     "url": "https://github.com/glossier/cdk-time-bomb.git"
@@ -23,8 +25,11 @@
   "author": {
     "name": "John Belisle",
     "email": "jmb186@gmail.com",
-    "url": "https://github.com/glossier",
+    "url": "https://github.com/jmb12686",
     "organization": false
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "jsii": {
     "targets": {
